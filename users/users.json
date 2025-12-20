@@ -1,0 +1,14 @@
+{
+  "admin": {
+    "role": "admin",
+    "password": "3b612c75a7b5048a435fb6ec81e52ff92d6d795a8b5a9c17070f6a63c97a53b2"
+  },
+  "alice": {
+    "role": "user",
+    "password": "6766ad37ada06ddc90f432f8d915f991dd0ec6559bfd8d400b380e4aef4e3ac1"
+  },
+  "bob": {
+    "role": "user",
+    "password": "da43fa45e1bb5c63a31422b2c037a7821c838c31b0bb6072d04031b73636d85b"
+  }
+}

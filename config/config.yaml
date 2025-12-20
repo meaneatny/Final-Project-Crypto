@@ -1,0 +1,23 @@
+server:
+  host: "http://127.0.0.1:5000"
+
+folders:
+  input: storage/input
+  encrypted: storage/encrypted
+  decrypted: storage/decrypted
+  logs: logs
+
+keys:
+  owner_private: "keys/admin_private.pem"
+  owner_public: "keys/admin_pub.pem"
+  alice_private: "keys/alice_private.pem"
+  alice_public: "keys/alice_pub.pem"
+  bob_private: "keys/bob_private.pem"
+  bob_public: "keys/bob_pub.pem"
+
+encryption:
+  aes_key_size: 32
+  aes_mode: "GCM"
+  rsa_key_size: 2048
+  hash_algo: "SHA256"
+  signature_algo: "RSA-2048-PKCS1v15"

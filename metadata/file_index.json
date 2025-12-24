@@ -1,3 +1,19 @@
 {
-  
+  "file.txt.enc": {
+    "filename": "file.txt.enc",
+    "owner": "admin",
+    "recipients": [
+      "alice",
+      "bob"
+    ],
+    "size": 30,
+    "hash": "28a9c8201303468a2c17a925956b15c9bed00805f75f907e0f71c906488f3c6c",
+    "encryption_algo": "AES-256-GCM",
+    "signature_algo": "RSA-2048-PKCS1v15",
+    "timestamp": "2025-12-24T16:35:21.464478+00:00",
+    "decrypted_by": [
+      "bob",
+      "alice"
+    ]
+  }
 }

@@ -1,0 +1,11 @@
+{"timestamp": "2025-12-24T16:32:03.636771+00:00", "username": "admin", "action": "login_attempt", "status": "success", "request_id": "02ffdfb7-3087-47c6-bdb1-d391c795d40e", "role": "admin"}
+{"timestamp": "2025-12-24T16:33:58.502083+00:00", "username": "admin", "action": "login_attempt", "status": "success", "request_id": "9ded1863-772a-4bac-be88-4b2d26559b7c", "role": "admin"}
+{"timestamp": "2025-12-24T16:34:13.571182+00:00", "username": "admin", "action": "register_file", "status": "success", "request_id": "f83f97be-f5ca-4710-abff-c80cad29bf1e", "filename": "file.txt.enc", "recipients": ["alice"]}
+{"timestamp": "2025-12-24T16:35:21.469190+00:00", "username": "admin", "action": "register_file", "status": "success", "request_id": "fe0423b3-a2b4-4d18-9a30-9c7c730ee8f5", "filename": "file.txt.enc", "recipients": ["alice", "bob"]}
+{"timestamp": "2025-12-24T16:35:41.852924+00:00", "username": "bob", "action": "login_attempt", "status": "success", "request_id": "38a0fb91-0f76-40eb-ba93-a4f73e36f105", "role": "user"}
+{"timestamp": "2025-12-24T16:35:45.949305+00:00", "username": "bob", "action": "file_decrypted", "status": "success", "request_id": "5777db0a-7736-4d7f-9b73-b20bbba1f36a", "filename": "file.txt.enc"}
+{"timestamp": "2025-12-24T16:36:06.956133+00:00", "username": "alice", "action": "login_attempt", "status": "failed_invalid_password", "request_id": "85712b43-51c8-48bb-8cda-29eb966d1253"}
+{"timestamp": "2025-12-24T16:36:17.098042+00:00", "username": "alice", "action": "login_attempt", "status": "failed_invalid_password", "request_id": "520aacbe-575c-40b7-8a3f-a075b5873e6b"}
+{"timestamp": "2025-12-24T16:36:24.375685+00:00", "username": "alice", "action": "login_attempt", "status": "failed_invalid_password", "request_id": "408261b7-c064-45c2-8d2a-5061644d8364"}
+{"timestamp": "2025-12-24T16:36:30.083726+00:00", "username": "alice", "action": "login_attempt", "status": "success", "request_id": "85644700-667c-4147-974a-916446367065", "role": "user"}
+{"timestamp": "2025-12-24T16:36:35.469342+00:00", "username": "alice", "action": "file_decrypted", "status": "success", "request_id": "a382c72c-7d36-427d-9015-80d50a92f940", "filename": "file.txt.enc"}
